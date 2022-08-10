@@ -2,12 +2,11 @@ package main
 
 import (
 	"fmt"
-
-	"example.com/greetings"
+	"github.com/yy598162719/publish_demo"
 )
 
 func main() {
 	// Get a greeting message and print it.
-	message := greetings.Hello("Gladys")
+	message := publish_demo.Hello("Gladys")
 	fmt.Println(message)
 }
